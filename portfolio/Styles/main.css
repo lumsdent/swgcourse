@@ -1,0 +1,71 @@
+/*
+Name: Tyler Lumsden
+Date Created: 30Sep2018
+Date Last Modified: 30Sep2018
+*/
+
+
+/*Main Content style*/
+body{
+  background-color: #131515;
+  font-family: arial, helvetica, sans-serif;
+  color: #0d1f2d;
+}
+header, footer{
+  background-color: #5b7d87;
+  color: #fef9ff;
+  height: 100px;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+}
+h1{
+  font-size: 2.5em
+}
+
+main{
+  max-width:900px;
+  margin:0 auto;
+  background-color: #fef9ff;
+}
+.clearFloat{
+  clear:both;
+}
+article img{
+  float:left;
+}
+.rightContent{
+  float:left;
+}
+article{
+  margin-bottom: 16px;
+}
+nav{
+  border-top: 3px dashed #546a7b;
+  border-bottom: 3px dashed #546a7b;
+  margin-top: 4px;
+}
+nav a{
+  background-color: #5b7d87;
+  text-decoration: none;
+  text-align: center;
+  color:#fef9ff;
+  padding:8px;
+  border: thin solid #0d1f2d;
+  display: block;
+  margin: 20px;
+  width: 100px;
+  float:left;
+}
+/*
+nav a:visited{
+  color: #e4c3ad;
+}*/
+
+nav a:hover{
+  font-size: 1.2em;
+  background-color: #fef9ff;
+  color:#5b7d87;
+}
+nav a:active{
+  font-weight:bold;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+noscript{
+  font-size: 30px;
+  font-weight:bold;
+  color:#f00;
+  background-color:#fff;
+}
+body{
+  font-family: "Shadows Into Light", cursive;
+    background-color: #cdd7d6;
+}
+header {
+  text-align:center;
+  background-color: #48a9a6;
+  padding: 60px;
+  font-size: 1.9em;
+  font-weight: 900;
+}
+
+footer {
+  text-align:center;
+  background-color: #48a9a6;
+  padding:0px 0px 300px 0px;
+
+}
+main {
+  background-color: #b2e6d4;
+  padding:20px;
+}
+nav a{
+  background-color: #48a9a6;
+  color: #000;
+  margin: 10px;
+}
+nav a:hover {
+  font-weight: bold;
+}
+
+nav a:active {
+  text-decoration: none
+}
+nav a:visited {
+  color: #fff;
+}
+section {
+  text-align: center;
+}
+hr {
+  margin: auto;
+}
+.jumbotron{
+  background-color: #e49273;
+}
+.jumbotron h2{
+  font-weight: 900;
+}

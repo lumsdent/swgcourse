@@ -1,0 +1,42 @@
+body{
+  width:60%;
+  background-color: #076324;
+  color: #fff;
+  margin:auto;
+}
+.table{
+  max-width:450px;
+  min-width:50%;
+  margin:0px auto;
+  float:none;
+  padding:25px 0px 25px 0px;
+}
+th{
+  text-align: center;
+}
+table td{
+  border-bottom: 1px solid #fff;
+}
+.jumbotron{
+  font-size: 1em;
+  background-color: #222;
+  text-align: center;
+}
+
+footer{
+  background-color: #222;
+  text-align: right;
+  padding:5px 10px 10px 0px;
+  font-size: 0.7em;
+}
+form{
+  text-align: center;
+}
+h3{
+  font-size: 0.8em;
+}
+.btn-secondary{
+  background-color: #222;
+  padding:10px 30px 10px 30px;
+  margin:25px;
+}
